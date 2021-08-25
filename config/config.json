@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "gina",
+    "password": "root",
+    "database": "basic-auth",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "gina",
+    "password": "root",
+    "database": "basic-auth",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "gina",
+    "password": "root",
+    "database": "basic-auth",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
