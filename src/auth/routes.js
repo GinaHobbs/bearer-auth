@@ -11,7 +11,10 @@ authRouter.post('/signup', async (req, res, next) => {
   try {
     let userRecord = await users.create(req.body);
     const output = {
-      user: userRecord,
+      user: {
+        userID: userRecord._id,
+        username: userRecord.username,
+      },
       token: userRecord.token
     };
     res.status(200).json(output);

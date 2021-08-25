@@ -1,6 +1,8 @@
 'use strict';
 
+require('dotenv').config();
 const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
 
 const userSchema = (sequelize, DataTypes) => {
   const model = sequelize.define('User', {
